@@ -4,10 +4,14 @@ import ProjectCard from "../components/ProjectCard";
 import GithubActivity from "../components/GithubActivity";
 import LearningTimeline from "../components/LearningTimeline";
 import ProjectStepper from "../components/ProjectStepper";
+import HeroIntro from "../components/HeroIntro";
 
 function Dashboard() {
   return (
     <div className="space-y-10">
+      {/* HERO INTRO */}
+      <HeroIntro />
+
       {/* SKILLS  */}
       <section>
         <h2 className="text-2xl font-bold mb-4">Skills Overview</h2>

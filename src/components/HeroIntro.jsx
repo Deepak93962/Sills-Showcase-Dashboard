@@ -8,9 +8,10 @@ function HeroIntro() {
         <h1 className="text-3xl font-bold">Hello, I’m a Developer</h1>
 
         <p className="text-gray-600 leading-relaxed">
-          This is a sample introduction section used to demonstrate how a
-          professional dashboard-style portfolio can present information. The
-          content here is purely dummy and meant for layout and UI testing.
+          I am a frontend-focused developer with working knowledge of backend
+          technologies including Django, Node.js, and databases such as MySQL,
+          SQLite, and MongoDB. This dashboard highlights my skills, projects,
+          and ongoing learning journey.
         </p>
 
         <button className="px-4 py-2 bg-blue-600 text-white rounded-md w-fit">
