@@ -9,9 +9,11 @@ import HeroIntro from "../components/HeroIntro";
 function Dashboard() {
   return (
     <div className="space-y-10">
-      {/* HERO INTRO */}
+     
+      {/* <section className="bg-white rounded-xl shadow p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center"> */}
+             {/* HERO INTRO */}
       <HeroIntro />
-
+        {/* <section/> */}
       {/* SKILLS  */}
       <section>
         <h2 className="text-2xl font-bold mb-4">Skills Overview</h2>

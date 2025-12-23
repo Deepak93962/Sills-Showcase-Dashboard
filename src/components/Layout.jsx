@@ -10,7 +10,7 @@ function Layout({ children }) {
       {/* Main area */}
       <div className="flex-1 flex flex-col">
         <Navbar />
-        <main className="p-6">{children}</main>
+        <main className="p-4 md:p-6">{children}</main>
       </div>
     </div>
   );

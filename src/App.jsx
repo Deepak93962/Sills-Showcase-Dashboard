@@ -5,7 +5,7 @@
  import Skills from "./pages/Skills";
  import Projects from "./pages/Projects";
  import Learning from "./pages/Learning";
-
+ import './App.css'
  function App() {
    return (
      <BrowserRouter>

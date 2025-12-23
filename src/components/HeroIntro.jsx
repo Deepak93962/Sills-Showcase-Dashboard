@@ -40,7 +40,7 @@ function HeroIntro() {
         <img
           src={profile}
           alt="Dummy profile"
-          className="w-64 h-64 object-cover rounded-xl"
+          className="w-40 h-40 md:w-64 md:h-64 object-cover rounded-xl"
         />
       </div>
     </section>

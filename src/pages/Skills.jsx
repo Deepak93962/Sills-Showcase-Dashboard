@@ -9,7 +9,7 @@ function Skills() {
   ];
 
   return (
-    <div>
+    <div >
       <h1 className="text-2xl font-bold mb-4">Skills</h1>
 
       <div className="space-y-3">
