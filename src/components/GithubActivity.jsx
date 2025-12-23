@@ -10,6 +10,10 @@ function GithubActivity() {
         blockSize={14}
         blockMargin={4}
         fontSize={14}
+        theme={{
+          light: ["#e5e7eb", "#bbf7d0", "#86efac", "#4ade80", "#16a34a"],
+          dark: ["#e5e7eb", "#bbf7d0", "#86efac", "#4ade80", "#16a34a"],
+        }}
       />
     </div>
   );
