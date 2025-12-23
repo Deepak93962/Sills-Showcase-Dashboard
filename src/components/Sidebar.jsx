@@ -7,6 +7,10 @@ function Sidebar() {
 
       <nav className="space-y-4">
         <NavLink to="/" className="block hover:text-gray-300">
+          Dashboard
+        </NavLink>
+
+        <NavLink to="/Overview" className="block hover:text-gray-300">
           Overview
         </NavLink>
 

@@ -11,12 +11,14 @@
      <BrowserRouter>
        <Layout>
          <Routes>
+           <Route path="/" element={<Dashboard />} />
+
            <Route path="/Overview" element={<Overview />} />
            <Route path="/skills" element={<Skills />} />
            <Route path="/projects" element={<Projects />} />
            <Route path="/learning" element={<Learning />} />
          </Routes>
-         <Dashboard />
+         {/* <Dashboard /> */}
        </Layout>
      </BrowserRouter>
    );
