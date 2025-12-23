@@ -2,6 +2,8 @@ import SkillCard from "../components/SkillCard";
 import SkillsRadar from "../components/SkillsRadar";
 import ProjectCard from "../components/ProjectCard";
 import GithubActivity from "../components/GithubActivity";
+import LearningTimeline from "../components/LearningTimeline";
+import ProjectStepper from "../components/ProjectStepper";
 
 function Dashboard() {
   return (
@@ -43,9 +45,12 @@ function Dashboard() {
         </div>
       </section>
 
- 
       <section>
         <GithubActivity />
+      </section>
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <LearningTimeline />
+        <ProjectStepper />
       </section>
     </div>
   );
